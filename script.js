@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado:"você está em uma floresta e encontra uma casa abandonada",
         alternativas: [
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "positivo"
+                texto: "você entra para se proteger da floresta durante a noite",
+                afirmacao: "casa abandonada: você é esfaqueado"
             },
             {
-                texto:  "Isso é assustador!",
-                afirmacao: "negativo"
+                texto:  "você pega sua bazuca e atira na casa",
+                afirmacao: "casa abandonada: você mata os mendigos"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "ao entrar na casa apos sua escolha você vê um mendingo assustado e se escondendo. Oque você faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "positivo"
+                texto: "dá um milhão de reais para ele ",
+                afirmacao: "Mendingo:ele fica milionario, mas você vai a falencia"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "negativo"
+                texto: "rouba ele ",
+                afirmacao: "mendingo:você acha um diamante que vale US$450000"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "o mendingo foje rico e rouba sua bazuca e atira na sua casa, Oque você faz?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "positivo"
+                texto: "se esconde no telahado da casa ",
+                afirmacao: "Mendingo bazuka: FIM você morre(ele errou a mira)"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "negativo"
+                texto: "fica onde está",
+                afirmacao: "Mendingo bazuca:você sobrevive "
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "De manhã voçe vai a floresta para achar a saida, e acaba vendo um urso, oque você faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "positivo"
+                texto: "se esconde na caverna proxima",
+                afirmacao: "URSO: FIM você morre"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "negativo"
+                texto: "começa a correr",
+                afirmacao: "URSO; voçe consegue despistalo mas perde uma perna"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "você se arrasta pela floresta, e encontra uma rua e um carro para para você entrar, Oque você faz? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "positivo"
+                texto: "você entra no carro pela porta de traz",
+                afirmacao: "Carro; FIM era o mendigo, ele te ajuda mas depois te leva para canibais"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "negativo"
+                texto: "você entra pela porta da frente mas preparado.",
+                afirmacao: "Carro; você bate no mendingo rouba o  carro e recupera as suas coisas mesmo não conseguindo dirigir"
             }
         ]
     },
